@@ -4,10 +4,10 @@ import random
 import ast
 import sys
 
-minhistory = int(sys.argv[0])
-shots = int(sys.argv[1])
-transaction_type = str(sys.argv[2])
-data_list = str(sys.argv[3])
+minhistory = int(sys.argv[1])
+shots = int(sys.argv[2])
+transaction_type = str(sys.argv[3])
+data_list = str(sys.argv[4])
 
 def risk_function(minhistory, shots, transaction_type, data_list):
     
